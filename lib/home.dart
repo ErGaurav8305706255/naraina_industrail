@@ -270,6 +270,7 @@ class _MyHomeState extends State<MyHome> {
                       IconButton(
                         iconSize: 5,
                         onPressed: (){},
+
                         icon:
                         Icon(Icons.arrow_forward_ios_rounded,size: 20,color: Colors.black,),
                       ),
