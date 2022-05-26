@@ -262,7 +262,7 @@ class _MyHomeState extends State<MyHome> {
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                            Text('Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+                            Text('Lorem Ipsum is simply text of the printing and update in folder git addtypesetting industry. ',
                             ),
                           ],
                         ),
