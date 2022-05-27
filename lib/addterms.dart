@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:naraina_industrail/task2/login%20new.dart';
 class AddTerms extends StatefulWidget {
   const AddTerms({Key? key}) : super(key: key);
 
@@ -27,7 +28,12 @@ class _AddTermsState extends State<AddTerms> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      TextButton(onPressed: (){},
+                      TextButton(onPressed: (){
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const LoginNew()));
+                      },
                         child: Text(
                           'Preview your listing',
                           style: TextStyle(
